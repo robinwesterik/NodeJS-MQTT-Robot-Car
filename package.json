@@ -19,6 +19,7 @@
   "homepage": "https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "jade": "^1.11.0",
     "mqtt": "^4.2.8",
     "pug": "^3.0.2"
   }
