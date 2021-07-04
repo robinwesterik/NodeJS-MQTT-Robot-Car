@@ -1,0 +1,25 @@
+doctype
+html
+  head
+    title Robot Control
+    link(rel='stylesheet', href='/css/interface.css')
+    link(rel='stylesheet', href='/css/flat-ui.css')
+    script(src="/js/interface.js")
+  body
+    .mainContainer
+      .title Robot Control
+      .buttonBlock
+        a(href="forward")
+          button.btn.btn-block.btn-lg.btn-primary#1 Forward
+      .buttonBlock
+        a(href="left")
+          button.btn.btn-block.btn-lg.btn-primary#2 Left
+        a(href="right")
+          button.btn.btn-block.btn-lg.btn-primary#3 Right
+      .buttonBlock
+        a(href="backward")
+          button.btn.btn-block.btn-lg.btn-primary#4 Backward
+      .buttonBlock
+        a(href="stop")
+          button.btn.btn-block.btn-lg.btn-danger#5 Stop
+      .buttonBlock
