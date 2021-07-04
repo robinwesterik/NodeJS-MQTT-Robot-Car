@@ -2,7 +2,7 @@
     "name": "MQTT-Robot-Car",
     "version": "1.0.0",
     "description": "This NodeJS web interface allows one to control a robot car using MQTT messages",
-    "main": "app.js",
+    "main": "server.js",
     "private": true,
     "dependencies": {
       "mqtt": "^4.2.8",
