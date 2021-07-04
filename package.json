@@ -4,9 +4,6 @@
     "description": "This NodeJS web interface allows one to control a robot car using MQTT messages",
     "main": "app.js",
     "private": true,
-    "scripts": {
-      "start": "node app.js"
-    },
     "dependencies": {
       "mqtt": "^4.2.8",
       "express": "^4.17.1"
