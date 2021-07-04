@@ -6,6 +6,7 @@
     "private": true,
     "dependencies": {
       "mqtt": "^4.2.8",
-      "express": "^4.17.1"
+      "express": "^4.17.1",
+      "pug":"^3.0.2"
     }
   }
