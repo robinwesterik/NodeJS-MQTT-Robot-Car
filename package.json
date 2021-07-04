@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car/issues"
   },
-  "homepage": "https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car#readme"
+  "homepage": "https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.2.8",
+    "pug": "^3.0.2"
+  }
 }
