@@ -4,7 +4,7 @@ var mqtt = require('mqtt');
 var app = express();
 
 // Define port
-var port = 3000;
+var port = 443;
 
 // Define client
 var client = mqtt.connect('mqtt://public.mqtthq.com', {
