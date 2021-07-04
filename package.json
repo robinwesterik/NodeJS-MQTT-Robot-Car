@@ -1,12 +1,20 @@
 {
-    "name": "MQTT-Robot-Car",
-    "version": "1.0.0",
-    "description": "This NodeJS web interface allows one to control a robot car using MQTT messages",
-    "main": "server.js",
-    "private": true,
-    "dependencies": {
-      "mqtt": "^4.2.8",
-      "express": "^4.17.1",
-      "pug":"^3.0.2"
-    }
-  }
+  "name": "mqtt-robot-car",
+  "version": "1.0.0",
+  "description": "This NodeJS web interface allows one to control a robot car using MQTT messages",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car.git"
+  },
+  "author": "Robin Westerik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car/issues"
+  },
+  "homepage": "https://github.com/robinwesterik/NodeJS-MQTT-Robot-Car#readme"
+}
